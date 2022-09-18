@@ -43,6 +43,7 @@
             this.Btn0 = new System.Windows.Forms.Button();
             this.Btn5 = new System.Windows.Forms.Button();
             this.Btn8 = new System.Windows.Forms.Button();
+            this.BtnMinus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Display
@@ -204,11 +205,22 @@
             this.Btn8.Text = "8";
             this.Btn8.UseVisualStyleBackColor = true;
             // 
+            // BtnMinus
+            // 
+            this.BtnMinus.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BtnMinus.Location = new System.Drawing.Point(435, 280);
+            this.BtnMinus.Name = "BtnMinus";
+            this.BtnMinus.Size = new System.Drawing.Size(58, 51);
+            this.BtnMinus.TabIndex = 15;
+            this.BtnMinus.Text = "-";
+            this.BtnMinus.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnMinus);
             this.Controls.Add(this.Btn8);
             this.Controls.Add(this.Btn5);
             this.Controls.Add(this.Btn0);
@@ -247,5 +259,6 @@
         private Button Btn0;
         private Button Btn5;
         private Button Btn8;
+        private Button BtnMinus;
     }
 }
